@@ -1,0 +1,21 @@
+.chatContainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.textAreaStyle {
+  display: inline-block;
+  font-size: calc(var(--unit) * 2);
+  margin-right: var(--unit);
+  border-radius: var(--unit);
+  border: 1px solid silver;
+  height: 100%;
+  width: 100%;
+}
+
+.sendButton {
+  padding: var(--unit);
+  font-size: 2rem;
+}

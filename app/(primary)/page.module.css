@@ -1,0 +1,26 @@
+.main {
+  width: 600px;
+  margin: 80px auto;
+}
+
+.userBubble {
+  background-color: silver;
+  text-align: right;
+  padding: var(--unit);
+  border-radius: var(--unit);
+  margin-bottom: var(--unit);
+}
+
+.uploadButtonContainer {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.roomImageContainer {
+  text-align: center;
+}
+
+.designSuggestionsContainer {
+  font-size: 2rem;
+  margin-top: 1rem;
+}

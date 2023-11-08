@@ -18,4 +18,5 @@
 .sendButton {
   padding: var(--unit);
   font-size: 2rem;
+  border-radius: 1rem;
 }

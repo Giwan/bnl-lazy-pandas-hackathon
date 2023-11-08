@@ -9,13 +9,13 @@ export default function Home() {
       </div>
       <div className={styles.grid}>
         <div className={styles.card}>
-          <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_100,w_800/lazypandas/c5uwjt8qzidq2ommpczp.png' />
+          <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_200,w_800/lazypandas/c5uwjt8qzidq2ommpczp.png' />
         </div>
         <div className={styles.card}>
-          <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_100,w_800/lazypandas/qwxccqxbr4bvoxefq3ek.jpg' />
+          <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_200,w_800/lazypandas/qwxccqxbr4bvoxefq3ek.jpg' />
         </div>
         <div className={styles.card}>
-          <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_100,w_800/lazypandas/bfajkvtle5bddkd912hl.png' />
+          <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_200,w_800/lazypandas/bfajkvtle5bddkd912hl.png' />
         </div>
       </div>
     </main>

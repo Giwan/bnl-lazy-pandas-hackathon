@@ -10,17 +10,17 @@ export default function Home() {
       </div>
       <div className={styles.grid}>
         <div className={styles.card}>
-          <Link href='/step3'>
+          <Link href='/items-list'>
           <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_200,w_800/lazypandas/c5uwjt8qzidq2ommpczp.png' />
           </Link>
         </div>
         <div className={styles.card}>
-        <Link href='/step3'>
+        <Link href='/items-list'>
           <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_200,w_800/lazypandas/qwxccqxbr4bvoxefq3ek.jpg' />
           </Link>
         </div>
         <div className={styles.card}>
-        <Link href='/step3'>
+        <Link href='/items-list'>
           <img src='https://res.cloudinary.com/drerw82nm/image/upload/c_thumb,g_auto,h_200,w_800/lazypandas/bfajkvtle5bddkd912hl.png' />
           </Link>
         </div>

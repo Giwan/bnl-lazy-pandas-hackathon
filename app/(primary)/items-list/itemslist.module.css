@@ -1,0 +1,68 @@
+.main {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.itemsToPurchaseList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.itemToPurchase {
+  background-color: #F0BF4C;
+  border-radius: 1rem;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.itemImage {
+  height: 100%;
+  width: 100%;
+}
+
+.itemTextContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.itemText {
+  background-color: #111;
+  opacity: 0.75;
+  border-radius: var(--unit);
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+
+}
+
+.co2Style {
+  margin: var(--unit) 0;
+  padding: var(--unit);
+  text-align: center;
+  font-size: 2rem;
+  background-color: #D3EED3;
+  color: #02592F;
+  border-radius: var(--unit);
+}
+
+.thirdPartyIntegration {
+  margin: var(--unit) 0;
+  padding: var(--unit);
+  text-align: center;
+  font-size: 2rem;
+  background-color: #D3E8EE;
+  color: #02592F;
+  border-radius: var(--unit);
+}
+

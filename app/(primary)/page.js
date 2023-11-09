@@ -3,7 +3,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 // import Link from 'next/link';
-import ChatInput from '@/components/ChatInput/ChatInput';
+// import ChatInput from '@/components/ChatInput/ChatInput';
+import Banner from '@/components/Banner';
+import Ask from '@/components/Ask';
+import EmptyRoom from '@/components/EmptyRoom';
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -14,10 +17,13 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <p className={styles.userBubble}>Hey Adevinta can you help me furnish my room?</p>
-      <p>Sure. Upload a photo of the room and I'll make some suggestions</p>
+      <Banner />
+      <Ask />
+      <EmptyRoom />
+      {/* <p className={styles.userBubble}>Hey Adevinta can you help me furnish my room?</p>
+      <p>Sure. Upload a photo of the room and I'll make some suggestions</p> */}
       {/* <Link href="/items-list">Items List</Link> */}
-      <div className={styles.uploadButtonContainer}>
+      {/* <div className={styles.uploadButtonContainer}>
         {!isUploaded && <button onClick={handleUpload}>
           <Image
             src="/upload_button.png"
@@ -25,10 +31,10 @@ export default function Home() {
             height={50}
             alt="upload button"
           /></button>}
-      </div>
+      </div> */}
 
-      {isUploaded && <EmptyRoomImage />}
-      <ChatInput />
+      {/* {isUploaded && <EmptyRoomImage />} */}
+      {/* <ChatInput /> */}
     </main>
   )
 }

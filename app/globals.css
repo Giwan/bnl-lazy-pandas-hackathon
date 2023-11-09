@@ -1,7 +1,23 @@
-:root {
-  --unit: 16px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+.ask-bg {
+    background-image: url('/images/ask/swirl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-strong {
-  margin: 0 4px;
-}
+  .joinButton {
+    padding: 20px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .joinButton {
+      padding: 20px 92px;
+    }
+  }

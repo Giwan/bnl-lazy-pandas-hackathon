@@ -1,0 +1,7 @@
+.UploadInput {
+    flex: 1;
+  }
+  
+  .UploadInput input[type="text"] {
+    width: 98%;
+  }

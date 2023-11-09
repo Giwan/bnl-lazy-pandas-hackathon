@@ -1,10 +1,8 @@
-import Image from 'next/image'
+import Featured from '@/components/Featured';
 import styles from '../page.module.css'
 
-export default function Home() {
+export default function Step2() {
   return (
-    <main className={styles.main}>
-      <h1>Here are three recommendations on how to furnish the room...</h1>
-    </main>
+    <Featured />
   )
 }

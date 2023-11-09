@@ -20,3 +20,11 @@
   font-size: 2rem;
   border-radius: 1rem;
 }
+
+.ChatInput {
+  flex: 1;
+}
+
+.ChatInput input[type="text"] {
+  width: 98%;
+}

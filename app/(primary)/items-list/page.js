@@ -54,8 +54,8 @@ const ItemToPurchase = function({ children }) {
   return (
     <div className={styles.itemToPurchase} style={{ backgroundImage: "url:" + children.img }}>
       <img src={children.img} alt={children.name} className={styles.itemImage} />
-      <div className={styles.itemTextContainer}>
-        <p className={styles.itemText}>{children.name}</p>
+      <div className={`rounded ${styles.itemTextContainer}`}>
+        <p className={`rounded ${styles.itemText}`}>{children.name}</p>
       </div>
       </div>
   )

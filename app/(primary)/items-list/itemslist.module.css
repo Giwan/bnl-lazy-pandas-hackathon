@@ -39,7 +39,6 @@
 .itemText {
   background-color: #111;
   opacity: 0.75;
-  border-radius: var(--unit);
   padding: 1rem;
   font-size: 2rem;
   color: #fff;

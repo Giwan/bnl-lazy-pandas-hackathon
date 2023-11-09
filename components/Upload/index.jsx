@@ -23,7 +23,7 @@ const Upload = () => {
                             <input type="text" className="my-4 py-4 sm:pl-6 lg:text-xl text-black sm:rounded-full bg-lightgrey pl-1 focus:outline-none bg-emailbg focus:text-black" placeholder="Please upload a picture of your room" autoComplete="off" onClick={handleFileUploadClick} />
                         </div>
                         <div className="sm:mr-3">
-                            <button onClick={() => location.hash = '#empty-room'} type="submit" className="joinButton w-full sm:w-0 text-xl text-white font-semibold text-center rounded-xl sm:rounded-full bg-blue hover:bg-btnblue">
+                            <button onClick={handleFileUpload} type="submit" className="joinButton w-full sm:w-0 text-xl text-white font-semibold text-center rounded-xl sm:rounded-full bg-blue hover:bg-btnblue">
                                 Submit
                             </button>
                         </div>

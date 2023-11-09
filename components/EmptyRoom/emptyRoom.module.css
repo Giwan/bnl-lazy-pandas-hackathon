@@ -6,6 +6,10 @@
     width: 65%;
 }
 
+.hidden {
+    visibility: hidden !important;
+}
+
 .chat {
     display: flex;
     flex-direction: column;

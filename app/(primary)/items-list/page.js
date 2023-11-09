@@ -52,7 +52,7 @@ const ItemsToPurchse = function() {
 
 const ItemToPurchase = function({ children }) {
   return (
-    <div className={styles.itemToPurchase} style={{ backgroundImage: "url:" + children.img }}>
+    <div className={styles.itemToPurchase}>
       <img src={children.img} alt={children.name} className={styles.itemImage} />
       <div className={`rounded ${styles.itemTextContainer}`}>
         <p className={`rounded ${styles.itemText}`}>{children.name}</p>
@@ -70,13 +70,13 @@ const Co2 = function () {
 }
 
 const ThirdPartyIntegration = () => (
-  <div className="py-8 text-center my-8 rounded text-3xl" style={{backgroundColor: "#D3E8EE", color: "#536895"}}>
+  <div className="py-8 text-center my-8 rounded text-3xl" style={{backgroundColor: "#2900d2", color: "#FFF"}}>
     <p>Paint suggestions for your rooms</p>
   </div>
 )
 
 const BuyAll = () => (
   <div className={styles.buyAllContainer}>
-    <button className="">Buy all</button>
+    <button className={`rounded text-3xl ${styles.buyAllButton}`}>Buy All</button>
   </div>
 )

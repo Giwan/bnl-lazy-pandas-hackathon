@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import styles from './chatinput.module.css';
 
-export default function ChatInput({onClick}) {
+export default function ChatInput({onClick, className}) {
     const [inputValue, setInputValue] = useState('');
 
     const handleKeyPress = (event) => {
@@ -19,7 +19,7 @@ export default function ChatInput({onClick}) {
     }
 
     return (
-        <div className="mx-auto max-w-4xl pt-5 pb-2">
+        <div className={`mx-auto max-w-4xl pt-5 pb-2 ${className}`}>
             <div className="sm:flex items-center p-5 sm:p-0 rounded-xl justify-between bg-lightgrey sm:rounded-full">
                 <div className={styles.ChatInput}>
                     <input

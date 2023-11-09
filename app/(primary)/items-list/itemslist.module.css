@@ -46,26 +46,6 @@
 
 }
 
-.co2Style {
-  margin: var(--unit) 0;
-  padding: var(--unit);
-  text-align: center;
-  font-size: 2rem;
-  background-color: #D3EED3;
-  color: #02592F;
-  border-radius: var(--unit);
-}
-
-.thirdPartyIntegration {
-  margin: var(--unit) 0;
-  padding: var(--unit);
-  text-align: center;
-  font-size: 2rem;
-  background-color: #D3E8EE;
-  color: #02592F;
-  border-radius: var(--unit);
-}
-
 .buyAllContainer {
   text-align: right;
   margin-top: 5rem;

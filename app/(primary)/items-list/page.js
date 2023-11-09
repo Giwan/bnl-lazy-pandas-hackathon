@@ -63,20 +63,20 @@ const ItemToPurchase = function({ children }) {
 
 const Co2 = function () {
   return (
-    <div className={styles.co2Style}>
+    <div className="py-8 text-center my-8 rounded text-3xl" style={{backgroundColor: "#D3EED3", color: "#02592F"}}>
       <p>You will save 20kg of C02</p>
     </div>
   )
 }
 
 const ThirdPartyIntegration = () => (
-  <div className={styles.thirdPartyIntegration}>
+  <div className="py-8 text-center my-8 rounded text-3xl" style={{backgroundColor: "#D3E8EE", color: "#536895"}}>
     <p>Paint suggestions for your rooms</p>
   </div>
 )
 
 const BuyAll = () => (
   <div className={styles.buyAllContainer}>
-    <button className={styles.buyAllButton}>Buy all</button>
+    <button className="">Buy all</button>
   </div>
 )

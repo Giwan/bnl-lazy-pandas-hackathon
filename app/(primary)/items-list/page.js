@@ -8,6 +8,7 @@ export default function Page3() {
       <ItemsToPurchse />
       <Co2 />
       <ThirdPartyIntegration />
+      <BuyAll />
     </main>
   )
 }
@@ -71,5 +72,11 @@ const Co2 = function () {
 const ThirdPartyIntegration = () => (
   <div className={styles.thirdPartyIntegration}>
     <p>Paint suggestions for your rooms</p>
+  </div>
+)
+
+const BuyAll = () => (
+  <div className={styles.buyAllContainer}>
+    <button className={styles.buyAllButton}>Buy all</button>
   </div>
 )

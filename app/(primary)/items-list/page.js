@@ -3,7 +3,7 @@ import styles from './itemslist.module.css';
 export default function Page3() {
   return (
     <main className={styles.main}>
-      <p className={styles.text}>Here are  some suggestions to furnish your apartment</p>
+      <p className={styles.text}>Here are  some suggestions to furnish your room</p>
 
       <ItemsToPurchse />
       <Co2 />

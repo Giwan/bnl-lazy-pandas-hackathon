@@ -1,14 +1,16 @@
+import ChatInput from '@/components/ChatInput/ChatInput';
 import styles from './itemslist.module.css';
 
 export default function Page3() {
   return (
-    <main className={styles.main}>
+    <main className={`mx-auto ${styles.main}`}>
       <p className={`mb-8 text-3xl ${styles.text}`}>Here are  some items to furnish your room with</p>
 
       <ItemsToPurchse />
       <Co2 />
       <ThirdPartyIntegration />
       <BuyAll />
+      <ChatInput />
     </main>
   )
 }

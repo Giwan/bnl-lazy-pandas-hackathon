@@ -19,7 +19,7 @@ export default function ChatInput({onClick, className}) {
     }
 
     return (
-        <div className={`mx-auto max-w-4xl pt-5 pb-2 ${className}`}>
+        <div className={`mx-auto max-w-4xl pt-5 pb-2 mt-8 ${className}`}>
             <div className="sm:flex items-center p-5 sm:p-0 rounded-xl justify-between bg-lightgrey sm:rounded-full">
                 <div className={styles.ChatInput}>
                     <input
@@ -38,7 +38,7 @@ export default function ChatInput({onClick, className}) {
                         type="submit"
                         className="joinButton w-full sm:w-0 text-xl text-white font-semibold text-center rounded-xl sm:rounded-full bg-blue hover:bg-btnblue"
                     >
-                        Submit
+                        Send
                     </button>
                 </div>
             </div>
